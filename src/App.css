@@ -1,0 +1,351 @@
+@import '~antd/dist/antd.css';
+
+@font-face {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  src: url('<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Open+Sans:300,400,600,700,800" rel="stylesheet">')
+}
+
+body {
+  color: #293040 !important;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#footer a {
+  color: white;
+}
+
+#team-members a {
+  color: #293040;
+}
+
+a:hover {
+  border: 1px solid #293040;
+  padding: 5px;
+  color: #293040;
+}
+
+button {
+  border-radius: 5%;
+  background-color: #293040;
+  color: white;
+  padding: 10px;
+  margin: 15px;
+}
+
+button:hover {
+  background-color: white;
+  color: #293040;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+  letter-spacing: 5px;
+  padding-top: 50px;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  text-align: left;
+}
+
+h3 {
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+hr {
+  background-color: white;
+  color: white;
+  margin-top: 30px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.center {
+  align-items: center;
+}
+
+.info-box {
+  border: 2px solid #293040;
+  display: flex;
+  height: auto;
+  width: 75%;
+  padding: 30px;
+  margin: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.member-box {
+  display: flex;
+  height: auto;
+  width: 100%;
+  padding: 30px;
+  margin: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-left: 5%;
+  margin-right: 5%; */
+}
+
+.price-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+.sub-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+  margin: 20px;
+  padding: 20px;
+  width: 300px; 
+}
+
+#components-form-demo-normal-login .login-form {
+  max-width: 300px;
+}
+#components-form-demo-normal-login .login-form-forgot {
+  float: right;
+}
+#components-form-demo-normal-login .login-form-button {
+  width: 100%;
+}
+
+navbar {
+  font-size: 100px;
+}
+
+#main-nav {
+  list-style-type: none;
+  display: none;
+  flex-direction: column;
+  align-content: center;
+}
+
+#main-nav li {
+  text-align: center;
+  margin: 15px auto;
+}
+
+.nav-links,
+#logo {
+  text-decoration: none;
+  color: #293040;
+}
+
+#logo:hover,
+.nav-links:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+#logo {
+  display: inline-block;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+#navbar-toggle {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 24px;
+}
+
+#navbar-toggle:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+@media screen and (min-width: 768px) {
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: auto;
+    align-items: center;
+  }
+
+  #main-nav {
+    display: flex !important;
+    margin-right: 30px;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  #main-nav li {
+    margin: 0;
+  }
+
+  .nav-links {
+    margin-left: 40px;
+  }
+
+  #logo {
+    margin-top: 0;
+  }
+
+  #navbar-toggle {
+    display: none;
+  }
+  
+  /* Font - Open Sans */
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+body {
+  background-color: white;
+  width: 100vw;
+  font-family: 'Lato', sans-serif;
+  color: #aec1cc;
+  letter-spacing: 0.5px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.app-container {
+  margin: 20px auto;
+  width: 370px;
+  height: 600px;
+  border-radius: 3px;
+  background-color: white;
+  box-shadow: 0px 1px 10px #888;
+}
+
+.container {
+  margin: 0 40px;
+}
+
+.intro {
+  text-align:center;
+  padding: 38px 0;
+}
+
+.profile-image img {
+  width: 91px;
+  border: 6px solid #e9eff3;
+  border-radius: 50%;
+}
+
+.intro-greeting {
+  padding-top: 20px;
+}
+
+.greeting-heading {
+  font-size: 25px;
+  font-weight: 400;
+  color: #586b77;
+}
+
+.greeting-instruction {
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 5px;
+}
+
+
+.input{
+  border: 1px solid #e1ebf1;
+  border-radius: 3px;
+  padding: 15px 10px;
+  margin: 5px 0;
+}
+
+.input input {
+  border: 0;
+
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #8697a1;
+  letter-spacing: 0.6px;
+}
+
+.input input:focus {
+  outline: 0;
+}
+
+.input .input-checkmark {
+  width: 10%;
+  display: inline;
+  float: right;
+}
+
+.input-inline{
+  padding: 12px 0;
+  display: inline-block;
+  position: absolute;
+}
+
+.input label {
+  padding: 0 10px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.button button {
+  display: inline;
+  width: 100px;
+  height: 45px;
+  float: right;
+  margin-top: 12px;
+  border: 0;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 0.5px;
+  color: white;
+  background: #ee6c6c;
+  cursor: pointer;
+}
+
+
+input:focus .input-checkmark i {
+  background: red;
+}
+
+/* Utilities */
+.no-border {
+  border: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .container#contact-box {
+    margin: auto;
+  }
+}
+}

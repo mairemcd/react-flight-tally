@@ -1,0 +1,19 @@
+
+import './App.css';
+import React, { Component } from 'react';;
+import Service from './components/Service';
+
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Service/>
+        <h2>SECTION SUBTITLE   </h2>
+        <h3>SMALLER TEXT   </h3>
+        <p>Paragraph  </p>
+      </div>
+    );
+  }
+}
+
+export default App;
